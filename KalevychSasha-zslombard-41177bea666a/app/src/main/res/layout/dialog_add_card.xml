@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:layout_marginTop="6dp"
+        android:layout_width="1000dp"
+        android:layout_height="1dp"
+        android:id="@+id/vv"
+        android:background="@color/colorPrimary" />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/linearCard2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearCard1">
+
+        <EditText
+            android:id="@+id/editTextCardNumber2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/card_repeat"
+            android:inputType="numberPassword">
+
+
+        </EditText>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/linearCard1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextCardNumber1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/card_number"
+            android:inputType="numberPassword">
+
+
+        </EditText>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonAddCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/attach_card"
+        app:layout_constraintEnd_toEndOf="@+id/linearCard2"
+        app:layout_constraintTop_toBottomOf="@+id/linearCard2" />
+
+</android.support.constraint.ConstraintLayout>

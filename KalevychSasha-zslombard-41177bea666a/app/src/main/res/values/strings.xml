@@ -1,0 +1,229 @@
+<resources>
+    <string name="app_name">ZSLombard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="amp">Повне товарство "Ломбард "Золота скриня" ТОВ "Кредитне товариство №1" І компанія" засновано у грудні 2009 року.</string>
+    <string name="profile">профіль</string>
+    <string name="to_buy">покупки</string>
+    <string name="to_sell">продажа</string>
+    <string name="intro_text">Point the camera view to a QR Code to read the information</string>
+    <string name="restart_activity">Restart Activity</string>
+    <string name="stop_start_qreader">Stop QREader</string>
+    <string name="info">довідка</string>
+
+
+    <string name="FIO">ПІБ</string>
+    <string name="phone">Телефон</string>
+    <string name="city">Місто</string>
+    <string name="email">email</string>
+    <string name="appliance_type">Тип техніки ( телефон, ноут)</string>
+    <string name="model">Модель</string>
+    <string name="state_1_10">Стан (від 1 до 10)</string>
+    <string name="apple_acer_sony">Виробник (Apple, Acer, Sony)</string>
+    <string name="remarks">Примітки</string>
+
+    <string name="_" />
+
+
+    <string name="new_client">Новий</string>
+    <string name="base_client">Базовий</string>
+    <string name="constant_client">Постійний</string>
+    <string name="vip_client">VIP</string>
+
+
+    <string name="name_star">Ім\'я*</string>
+
+
+    <string name="phone_star">телефон*</string>
+    <string name="name_star2">Ім\'я*</string>
+    <string name="news_description">довгий опис якоїсь новини</string>
+
+    <string name="percentages">Проценти</string>
+
+    <string name="to_pay">ДО ОПЛАТИ:</string>
+    <string name="pay">Оплатити</string>
+    <string name="about_company">ПРО КОМПАНІЮ</string>
+    <string name="kompany_stable">Компанія стабільно розвивається і поповнюється новими відділеннями, безперервно зміцнюючи свої позиції на українському ринку небанківського кредитування. Наразі відділення Компанії працюють в Києві та регіонах України</string>
+    <string name="most_important">Найважливішою складовою всього бізнесу є клієнт і його інтереси.</string>
+    <string name="registr">Свідоцтво про реєстрацію фін установи</string>
+    <string name="transparent_conditions">прозорі умови</string>
+    <string name="personal_turn">індивідуальний підхід до кожного</string>
+    <string name="high_level">високий рівень безпеки майна наших клієнтів</string>
+    <string name="full_konfidentity">повна конфіденційність послуг та захист інформації про клієнтів</string>
+    <string name="high_professionality">високий професіоналізм персоналу</string>
+    <string name="efficiency">оперативність та зручність</string>
+    <string name="you_need_money">Вам потрібні гроші?</string>
+    <string name="you_always_can">Ви завжди можете звернутись до наших ломбардних відділень, де протягом декількох хвилин в атмосфері доброзичливості і уваги фахівці безкоштовно проведуть оцінку вашого майна і допоможуть вам підібрати найвигідніші умови кредитування, заощадивши ваш час і гроші.</string>
+    <string name="request_consultation">ЗАМОВИТИ КОНСУЛЬТАЦІЮ</string>
+    <string name="loyality_program">ПРОГРАММА ЛОЯЛЬНОСТІ</string>
+    <string name="discond_10_n_n_1_1_n_n">Накопичувальна дисконтна програма дає можливість отримання знижки на сплату відсотків за користування кредитом до 10%. Дисконтна програма починає діяти з моменту першої сплати відсотків за користування кредитом. Бонуси нараховуються автоматично з розрахунку:    1 гривня сплачених відсотків = 1 бонус.    Кількість бонусів збільшується з кожною сплатою відсотків за користування кредитом, відповідно, автоматично збільшується розмір знижки на сплату відсотків за користування кредитом в подальшому</string>
+    <string name="bonuses_sum">Cумма бонусів</string>
+    <string name="personal_sale">Персональна знижка</string>
+    <string name="accumulate_bonuses_count">Кількість накопичених бонусів вказується в специфікації до Договору про надання фінансового кредиту та закладу майна до ломбарду</string>
+
+    <string name="choose_city">ОБЕРІТЬ МІСТО</string>
+
+    <string name="for_usage">ЗА КРИСТУВАННЯ</string>
+    <string name="returning">ПОВЕРНЕННЯ</string>
+    <string name="percent_credit">% СТАВКА</string>
+    <string name="credit_sum">СУМА КРЕДИТУ</string>
+    <string name="credit_term">СТРОК КРЕДИТУВАННЯ</string>
+    <string name="client_status">СТАТУС КЛІЄНТА</string>
+    <string name="weight">вага (г)</string>
+    <string name="gold">Золото</string>
+    <string name="silver">Срібло</string>
+    <string name="material">МАТЕРІАЛ</string>
+    <string name="appliance_credit">КРЕДИТ ПІД ЗАСТАВУ TЕХНІКИ</string>
+    <string name="n_n">Оформляючи кредит під заставу техніки, клієнт отримує максимальну суму від ринкової вартості пристрою. Для отримання кредиту необхідно мати:   Предмет застави;   Документ, що засвідчує особу та ідентифікаційний код.</string>
+
+    <string name="days_1_35">Кредитування – від 1 до 35 днів (з змогою продовження)</string>
+    <string name="_0_75">Ставка 0,75% в день</string>
+    <string name="few_minutes">Оформлення кредиту за декілька хвилин</string>
+    <string name="credit_size">Розмір кредиту — до 70% ціни від ринкової вартості</string>
+    <string name="appliance_mark">ОЦІНКА ТЕХНІКИ</string>
+    <string name="if_you_need_to_know">Якщо Вам необхідно дізнатись попередню вартість предмета застави, відправте онлайн-заявку на оцінку техніки. Наш менеджер зателефонує Вам найближчим часом!</string>
+    <string name="send_request">ВІДПРАВИТИ ЗАЯВКУ</string>
+    <string name="we_receive_everything_n_n_n_n_n">Ми приймаємо будь-яку техніку та електроніку   Телефони і портативна техніка   Мобільні телефони   Планшети   Ноутбуки   Фотоапарати...</string>
+    <string name="credit_for_gold">КРЕДИТ ПІД ЗАСТАВУ ЗОЛОТА</string>
+    <string name="finance_credit_sum">Сума фінансового кредиту встановлюється в процесі оцінки предмету застави та визначення його оціночної вартості. Для отримання кредиту необхідно мати документ, що засвідчує особу та ідентифікаційний код.</string>
+    <string name="online_consultation">ОНЛАЙН КОНСУЛЬТАЦІЯ</string>
+    <string name="gold_caps">ЗОЛОТО</string>
+    <string name="silver_caps">СРІБЛО</string>
+    <string name="platinum_caps">ПЛАТИНА</string>
+    <string name="table_silver">СТОЛОВЕ СРІБЛО</string>
+    <string name="markable_sum">ОЦІНОЧНА ВАРТІСТЬ</string>
+    <string name="size_of_markable">Розмір оціночної вартості ювелірних виробів розраховується на підставі ціни за 1 г дорогоцінного металу і залежить від:   Статусу клієнта   Персональна кредитна історія – кількість операцій, надійність, лояльність   Кредитної історії клієнта   Позитивна, негативна, рівень лояльності   Характеристик предмету застави   Вага, проба металу, стан   Терміну кредитування   від 1 до 35 днів</string>
+    <string name="marking_ssome">Оцінити вартість виробу</string>
+    <string name="credit_calculator">КАЛЬКУЛЯТОР КРЕДИТУ</string>
+
+    <string name="to_enter">УВІЙТИ</string>
+
+    <string name="wait_entering">ЗАЧЕКАЙТЕ, ЗДІЙСНЮЄТЬСЯ ВХІД</string>
+    <string name="scan_qr">Сканувати qr</string>
+    <string name="or">Або</string>
+    <string name="enter">УВІЙТИ</string>
+    <string name="password">Пароль</string>
+    <string name="login">Логін</string>
+    <string name="offer_number">№ договору</string>
+
+    <string name="work_in_14">ПРАЦЮЄМО В 14 РЕГІОНАХ</string>
+
+    <string name="rebuy">ВИКУП ЗА 10 ХВИЛИН</string>
+    <string name="mark_5">ОЦІНКА ЗА 5 ХВИЛИН</string>
+    <string name="work_14">ПРАЦЮЄМО В 14 РЕГІОНАХ</string>
+    <string name="years">8 РОКІВ НА РИНКУ</string>
+    <string name="pay_fixed">ОПЛАТИТИ ФІКСОВАНІ 0</string>
+
+    <string name="restart_scanner">ПЕРЕЗАПУСТИТИ СКАНЕР</string>
+    <string name="close">ЗАВЕРШИТИ</string>
+    <string name="scanned_text">сканований текст буде відображено тут</string>
+    <string name="remainder">Залишок   кредиту</string>
+    <string name="percentage">Проценти</string>
+    <string name="additional_percentage">Дод. проценти</string>
+    <string name="days_to_end">днів до кінця строку</string>
+    <string name="days_overwait">днів просрочки</string>
+    <string name="last_date">Дата останньої операції: 14.02.2018</string>
+    <string name="to_payd">До оплати</string>
+    <string name="for_pay">На оплату</string>
+    <string name="min_sum">мін. сумма: 1</string>
+    <string name="max_sum">макс. сумма: 999</string>
+    <string name="pledge_stuff">Предмет застави та його опис</string>
+    <string name="perc_credit">% кредиту:</string>
+    <string name="perconal_page">Особистий кабінет</string>
+    <string name="condition_credit">Умови кредитування</string>
+    <string name="contacts">Контакти</string>
+    <string name="calculator">Калькулятор</string>
+    <string name="news_and_sales">Новини та акції</string>
+    <string name="about_us">Про нас</string>
+    <string name="auction">Торги</string>
+    <string name="ua">Українська</string>
+    <string name="ru">Русский</string>
+    <string name="default_notification_channel_id">channel</string>
+    <string name="reply_today">Прийду сьогодні</string>
+    <string name="three_days_reply">Прийду через 3 дні</string>
+    <string name="later_reply">Прийду пізніше</string>
+    <string name="no_reply">не прийду</string>
+    <string name="ok">ok</string>
+    <string name="title_location_permission">title_location_permission</string>
+    <string name="text_location_permission">text_location_permission</string>
+    <string name="directionsApiKey">AIzaSyD3zpESUJNHvUHk3_yocU1m9ep26cHnhE8</string>
+    <string name="chart">ГРАФІК</string>
+    <string name="chat_bot">Чат-бот</string>
+    <string name="chat_bot_intro">привіт, я чат-бот, можеш поставити мені питання чи завдання</string>
+    <string name="сhat_bot_info">ти натиснув на довідку</string>
+    <string name="chat_bot_department">ти натиснув на відділення</string>
+    <string name="chat_bot_operator">ти натиснув на виклик оператора</string>
+    <string name="chat_bot_see_all">ви натиснули ПОДИВИТИСЬ ВСЕ</string>
+    <string name="chat_bot_current_sales">ти натиснув на поточні знижки</string>
+    <string name="chat_bot_price">ти натиснув на розцінки</string>
+    <string name="chat_bot_sales">ти натиснув на акції</string>
+    <string name="chat_bot_loyality_programm">ти натиснув на программу лояльності</string>
+    <string name="chat_bot_docs">ти натиснув на доки</string>
+    <string name="chat_bot_button_all">подивитись всі функції</string>
+    <string name="chat_bot_button_info">довідка</string>
+    <string name="chat_bot_button_search_dept">знайти відділення</string>
+    <string name="chat_bot_button_call_operator">дзвінок оператору</string>
+    <string name="chat_bot_button_current_sales">поточні знижки</string>
+    <string name="chat_bot_button_price">розцінки</string>
+    <string name="chat_bot_button_sales">акції</string>
+    <string name="chat_bot_button_loyality">программа лояльності</string>
+    <string name="chat_bot_button_docs">що треба для оформлення</string>
+    <string name="jewerly_tab_head">ЮВЕЛІРНІ ВИРОБИ</string>
+    <string name="appliance_tab_head">ПОБУТОВА ТЕХНІКА</string>
+    <string name="hint_login">логін повинен містити символи</string>
+    <string name="hint_offer_number">№ договору має 11 цифр</string>
+    <string name="hint_password">пусте поле, введіть пароль</string>
+    <string name="unsucsessful_login">НЕ ВДАЛОСЬ УВІЙТИ, ПЕРВІРТЕ ДАНІ ТА ПІДКЛЮЧЕННЯ ДО ІНТЕРНЕТУ</string>
+    <string name="chat_bot_button_return">повернутись в початок</string>
+    <string name="chat_bot_button_intro">привіт, я чат бот</string>
+    <string name="tap_twice_to_exit">Натисніть двічі для виходу</string>
+    <string name="settings">Сповіщення</string>
+    <string name="news_notification">Акційні пропозиції</string>
+    <string name="Reminder">Нагадування</string>
+    <string name="others_notification">Новини та інше</string>
+    <string name="show_notification">Відображати сповіщення</string>
+    <string name="set_all">Увімнкути всі</string>
+    <string name="set_nothing">Вимкнути всі</string>
+    <string name="add_card">Прикріпити картку</string>
+    <string name="card_number">номер вашої картки</string>
+    <string name="card_repeat">ще раз для перевірки</string>
+    <string name="attach_card">ЗАКРІПИТИ КАРТКУ</string>
+    <string name="hint_error_card1">номер картки містить 16 символів</string>
+    <string name="hint_error_card2">номера не співпадають</string>
+    <string name="chat">Чат</string>
+    <string name="reply_label">швидка відповідь</string>
+    <string name="goods">Товари</string>
+
+    <string-array name="cityList">
+        <item>Київ</item>
+        <item>Чернігів</item>
+        <item>Суми</item>
+        <item>Львів</item>
+    </string-array>
+
+    <string-array name="departmantsList">
+        <item>вул.Ясна, 1</item>
+        <item>вул. Тісна, 2</item>
+        <item>вул. Красна, 3</item>
+        <item>бул. Буля, 6</item>
+    </string-array>
+
+
+    <string-array name="goldContentsList">
+        <item>375</item>
+        <item>500</item>
+        <item>583</item>
+        <item>585</item>
+        <item>750</item>
+        <item>900/750</item>
+        <item>900</item>
+        <item>958</item>
+    </string-array>
+    <string-array name="silverContentList">
+        <item>875</item>
+        <item>925</item>
+    </string-array>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/news_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/news_description"
+        app:layout_constraintTop_toTopOf="@id/justView2"
+        app:layout_constraintLeft_toLeftOf="@id/justView"
+        tools:layout_editor_absoluteX="77dp" />
+
+    <View
+        android:id="@+id/justView"
+        android:layout_width="1dp"
+        android:layout_height="1000dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="8dp"></View>
+
+    <View
+        android:id="@+id/justView2"
+        android:layout_width="1000dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"></View>
+</android.support.constraint.ConstraintLayout>

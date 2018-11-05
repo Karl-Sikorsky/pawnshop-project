@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/textViewReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:text="TextView"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/buttonNotification2"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonNotification4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/buttonNotification4"
+        android:layout_below="@+id/textViewReminder"
+        android:layout_marginTop="34dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="буду завтра" />
+
+    <Button
+        android:id="@+id/buttonNotification3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonNotification4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="буду через 3 дні" />
+
+    <Button
+        android:id="@+id/buttonNotification4"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonNotification2"
+        android:layout_marginTop="18dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginBottom="8dp"
+        android:text="прошу зачекати" />
+
+    <Button
+        android:id="@+id/buttonNotification5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonNotification4"
+        android:layout_alignBottom="@+id/buttonNotification4"
+        android:layout_alignLeft="@+id/buttonNotification3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/buttonNotification3"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="не прийду" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/textViewReminder"
+        android:layout_alignEnd="@+id/buttonNotification3"
+        android:layout_alignRight="@+id/buttonNotification3"
+        android:background="@drawable/zs_logo" />
+</RelativeLayout>

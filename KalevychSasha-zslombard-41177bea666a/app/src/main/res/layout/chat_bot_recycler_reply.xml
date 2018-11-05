@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f2f2f"
+    android:textAlignment="center"
+    android:textColor="#fdad02"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+
+    android:id="@+id/buttonChatReply"/>
+
+</android.support.constraint.ConstraintLayout>

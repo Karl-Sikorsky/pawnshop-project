@@ -1,0 +1,228 @@
+<resources>
+    <string name="app_name">ZSLombard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="amp">Сообщество "Ломбард "Золота скриня" ООО "Кредитное сообщество №1" И компания" основано в декабре 2009 года.</string>
+    <string name="profile">профиль</string>
+    <string name="to_buy">покупки</string>
+    <string name="to_sell">продажа</string>
+    <string name="intro_text">Point the camera view to a QR Code to read the information</string>
+    <string name="restart_activity">Restart Activity</string>
+    <string name="stop_start_qreader">Stop QREader</string>
+    <string name="info">справка</string>
+
+
+
+
+    <string name="FIO">ФИО</string>
+    <string name="phone">Телефон</string>
+    <string name="city">Город</string>
+    <string name="email">email</string>
+    <string name="appliance_type">Тип техники ( телефон, ноут)</string>
+    <string name="model">Модель</string>
+    <string name="state_1_10">Состояние (от 1 до 10)</string>
+    <string name="apple_acer_sony">Производитель (Apple, Acer, Sony)</string>
+    <string name="remarks">Примечания</string>
+
+    <string name="tap_twice_to_exit">Нажмите дважды для выхода</string>
+
+    <string name="_" />
+
+
+
+    <string name="new_client">Новый</string>
+    <string name="base_client">Базовый</string>
+    <string name="constant_client">Постоянный</string>
+    <string name="vip_client">VIP</string>
+
+
+
+    <string name="name_star">Имя</string>
+
+
+    <string name="phone_star">Телефон*</string>
+    <string name="name_star2">Имя*</string>
+    <string name="news_description">длинное описание какой-то новости</string>
+
+    <string name="percentages">Проценты</string>
+
+    <string name="to_pay">К ОПЛАТЕ:</string>
+    <string name="pay">Оплатить</string>
+    <string name="about_company">О КОМПАНИИ</string>
+    <string name="kompany_stable">Компания стабильно развивается и дополняется новыми отделениями, Беспрерывно укрепляя свои позиции на рынке небанковского кредитирования. Сейчас отделения компании работают в Киеве и многих регионах Украины</string>
+    <string name="most_important">Важнейшей составляющей компании является клиент и его интересы.</string>
+    <string name="registr">Свидетельство о регистрации фин. установы</string>
+    <string name="transparent_conditions">прозрачные условия</string>
+    <string name="personal_turn">индивидуальный подход к каждому</string>
+    <string name="high_level">высокий уровень безопасности имущества наших клиентов</string>
+    <string name="full_konfidentity">полная конфиденциальность услуг и защита информации о компании</string>
+    <string name="high_professionality">высокий профессионализм персонала</string>
+    <string name="efficiency">оперативность и удобство</string>
+    <string name="you_need_money">Вам нужны деньги?</string>
+    <string name="you_always_can">Вы всегда можете обратиться в одно из нащих отделений, где за несколько минут в атмосфере доброжелательности и внимания наши специалисты бесплатно проведут оценку вашего имущества и помогут вам подобрать лучшие условия кредитирования, сэкономив ваше время и деньги.</string>
+    <string name="request_consultation">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</string>
+    <string name="loyality_program">ПРОГРАММА ЛОЯЛЬНОСТИ</string>
+    <string name="discond_10_n_n_1_1_n_n">Накопительная дисконтная программа дает возможность получения скидки на оплату процентов за пользование кредитом до 10%. Дисконтная программа начинает действовать с момента первой оплаты процентов за користування кредитом. Бонуси нараховуються автоматично з розрахунку:    1 гривня сплачених відсотків = 1 бонус.    Кількість бонусів збільшується з кожною сплатою відсотків за користування кредитом, відповідно, автоматично збільшується розмір знижки на сплату відсотків за користування кредитом в подальшому</string>
+    <string name="bonuses_sum">Cумма бонусов</string>
+    <string name="personal_sale">Персональная скидка</string>
+    <string name="accumulate_bonuses_count">Количество указаных бонусов указывается в спецификации к договору о предоставлении финансового кредита и залога имущества в ломбард</string>
+
+    <string name="choose_city">ВЫБЕРИТЕ ГОРОД</string>
+    
+    <string name="for_usage">ЗА ПОЛЬЗОВАНИЕ</string>
+    <string name="returning">ВОЗВРАЩЕНИЕ</string>
+    <string name="percent_credit">% СТАВКА</string>
+    <string name="credit_sum">СУММА КРЕДИТА</string>
+    <string name="credit_term">СРОК КРЕДИТОВАНИЯ</string>
+    <string name="client_status">СТАТУС КЛИЕНТА</string>
+    <string name="weight">вес (г)</string>
+    <string name="gold">Золото</string>
+    <string name="silver">Серебро</string>
+    <string name="material">МАТЕРИАЛ</string>
+    <string name="appliance_credit">КРЕДИТ ПОД ЗАЛОГ ТЕХНИКИ</string>
+    <string name="n_n">Оформляя кредит под залог техники, клиент максимальную сумму от рыночной стоимости предмета залога. Для получения кредита нужно иметь:   Предмет залога;   Документ,что удостоверяет личность и идентификационный код.</string>
+
+    <string name="days_1_35">Кредитование – от 1 до 35 дней (с возможностью продления)</string>
+    <string name="_0_75">Ставка 0,75% в день</string>
+    <string name="few_minutes">Оформление кредита за несколько минут</string>
+    <string name="credit_size">Размер кредита — до 70% цены от рыночной стоимоси</string>
+    <string name="appliance_mark">ОЦЕНКА ТЕХНИКИ</string>
+    <string name="if_you_need_to_know">Если вам нужно узнать предварительную стоимость предмета залога, отправьте онлайн-заявку на оценку техники. Наш менеджер перезвонит вам в близжайшее время!</string>
+    <string name="send_request">ОТПРАВИТЬ ЗАЯВКУ</string>
+    <string name="we_receive_everything_n_n_n_n_n">Мы принимаем любую технику и электронику!   Телефоны и портативная техника,   Мобильники   Планшеты   Ноутбуки   Фотоапараты...</string>
+    <string name="credit_for_gold">КРЕДИТ ПОД ЗАЛОГ ЗОЛОТА</string>
+    <string name="finance_credit_sum">Сумма финансового кредита устанавливается в процесе оценки предмета залога и определения его оценочной стоимости. Для получения кредита необходимо иметь документ ,что удостоверяет личность и идентификационный код.</string>
+    <string name="online_consultation">ОНЛАЙН КОНСУЛЬТАЦИЯ</string>
+    <string name="gold_caps">ЗОЛОТО</string>
+    <string name="silver_caps">СЕРЕБРО</string>
+    <string name="platinum_caps">ПЛАТИНА</string>
+    <string name="table_silver">СТОЛОВОЕ СЕРЕБРО</string>
+    <string name="markable_sum">ОЦЕНОЧНАЯ СТОИМОСТЬ</string>
+    <string name="size_of_markable">Размер оценочной стоимости ювелирных произведенийрассчитывается на основании цены за 1 г драгоценного метала і зависит от:   Статуса клиента   Персональная кредитная история – Количество операций, надежность, лояльность   кредитной истории клиента  положительная, отрицательная,  Характеристики предмета залога:   Вес, проба метала, состояние   Время кредитирования:   от 1 до 35 дней</string>
+    <string name="marking_ssome">Оценить стоимость изделия</string>
+    <string name="credit_calculator">КАЛЬКУЛЯТОР КРЕДИТА</string>
+
+    <string name="to_enter">ВОЙТИ</string>
+
+    <string name="wait_entering">ПОДОЖДИТЕ, ОСУЩЕСТВЛЯЕТСЯ ВХОД</string>
+    <string name="scan_qr">Сканировать qr</string>
+    <string name="or">Или</string>
+    <string name="enter">ВОЙТИ</string>
+    <string name="password">Пароль</string>
+    <string name="login">Логин</string>
+    <string name="offer_number">№ договора</string>
+
+    <string name="work_in_14">РАБОТАЕМ В 14 РЕГИОНАХ</string>
+
+    <string name="rebuy">ВЫКУП ЗА 10 МИНУТ</string>
+    <string name="mark_5">ОЦЕНКА ЗА 5 МИНУТ</string>
+    <string name="work_14">РАБОТАЕМ В 14 РЕГИОНАХ</string>
+    <string name="years">8 ЛЕТ НА РЫНКЕ</string>
+    <string name="pay_fixed">ОПЛАТИТЬ ФИКСИРОВАНЫЕ 0</string>
+
+    <string name="restart_scanner">ПЕРЕЗАПУСТИТЬ СКАНЕР</string>
+    <string name="close">ЗАВЕРШИТЬ</string>
+    <string name="scanned_text">сканированый текст будет отображен здесь</string>
+    <string name="remainder">Остаток кредита </string>
+    <string name="percentage">Проценты</string>
+    <string name="additional_percentage">Доп. проценты</string>
+    <string name="days_to_end">дней до конца срока</string>
+    <string name="days_overwait">дней просрочки</string>
+    <string name="last_date">Дата последней операции:</string>
+    <string name="to_payd">К оплате</string>
+    <string name="for_pay">На оплату</string>
+    <string name="min_sum">мин. сумма: 1</string>
+    <string name="max_sum">макс. сумма: 999</string>
+    <string name="pledge_stuff">Предмет залога и его описание</string>
+    <string name="perc_credit">% кредита:</string>
+    <string name="perconal_page">Личный кабинет</string>
+    <string name="condition_credit">Условия кредитования</string>
+    <string name="contacts">Контакты</string>
+    <string name="calculator">Калькулятор</string>
+    <string name="news_and_sales">Новости и акции</string>
+    <string name="about_us">О нас</string>
+    <string name="auction">Торги</string>
+    <string name="ua">Українська</string>
+    <string name="ru">Русский</string>
+    <string name="chart">ГРАФИК</string>
+    <string name="default_notification_channel_id">channel</string>
+    <string name="reply_today">Приду сегодня</string>
+    <string name="three_days_reply">Приду через 3 дня</string>
+    <string name="later_reply">Приду позже</string>
+    <string name="no_reply">не приду</string>
+    <string name="ok">ok</string>
+
+
+    <string name="chat_bot">Чат-бот</string>
+
+    <string name="сhat_bot_info">ты нажал на справку</string>
+    <string name="chat_bot_department">ты нажал на отделения</string>
+    <string name="chat_bot_operator">ты нажал на вызов оператора</string>
+    <string name="chat_bot_see_all">вы нажали посмотреть все функции:</string>
+    <string name="chat_bot_intro">Привет, я чат-бот, ты можешь задать мне вопрос или поставить задачу</string>
+    <string name="chat_bot_current_sales">вы нажали на текущие скидки</string>
+    <string name="chat_bot_price">вы нажали на расценки</string>
+    <string name="chat_bot_sales">вы нажали на "АКЦИИ"</string>
+    <string name="chat_bot_loyality_programm">вы нажали "программа лояльности"</string>
+    <string name="chat_bot_docs">вы нажали на "документы"</string>
+    <string name="chat_bot_button_all">посмотреть все функции</string>
+    <string name="chat_bot_button_info">справка</string>
+    <string name="chat_bot_button_search_dept">найти отделение</string>
+    <string name="chat_bot_button_call_operator">звонок оператору</string>
+    <string name="chat_bot_button_current_sales">текущие скидки</string>
+    <string name="chat_bot_button_price">расценки</string>
+    <string name="chat_bot_button_sales">акции</string>
+    <string name="chat_bot_button_loyality">программа лояльности</string>
+    <string name="chat_bot_button_docs">что нужно для оформления</string>
+    <string name="jewerly_tab_head">ЮВЕЛИРНЫЕ ИЗДЕЛИЯ</string>
+    <string name="appliance_tab_head">БЫТОВАЯ ТЕХНИКА</string>
+    <string-array name="cityList">
+        <item>Киев</item>
+        <item>Чернигов</item>
+        <item>Сумы</item>
+        <item>Львов</item>
+    </string-array>
+
+    <string-array name="departmantsList">
+        <item>вул. Ясная, 1</item>
+        <item>вул. Тесная, 2</item>
+        <item>вул. Красная, 3</item>
+        <item>бул. Буля, 6</item>
+    </string-array>
+
+
+    <string-array name="goldContentsList">
+        <item>375</item>
+        <item>500</item>
+        <item>583</item>
+        <item>585</item>
+        <item>750</item>
+        <item>900/750</item>
+        <item>900</item>
+        <item>958</item>
+    </string-array>
+    <string-array name="silverContentList">
+        <item>875</item>
+        <item>925</item>
+    </string-array>
+
+    <string name="hint_login">Логин должен содержать символы</string>
+    <string name="hint_offer_number">№ договора имеет 11 цифр</string>
+    <string name="unsucsessful_login">Не удалось войти. Проверьте введенные данные и подключение к интернету</string>
+    <string name="chat_bot_button_return">вернуться в начало</string>
+    <string name="hint_password">пустое поле, введите пароль</string>
+    <string name="chat_bot_button_intro">привет, я чат бот</string>
+    <string name="title_location_permission">title_location_permission</string>
+    <string name="text_location_permission">title_location_permission</string>
+    <string name="directionsApiKey">title_location_permission</string>
+    <string name="settings">Уведомления</string>
+    <string name="news_notification">Акционные предложения</string>
+    <string name="Reminder">Напоминания</string>
+    <string name="others_notification">Новости и другое</string>
+    <string name="show_notification">Отображать уведомления</string>
+    <string name="set_all">Включить все</string>
+    <string name="set_nothing">Отключить все</string>
+</resources>
