@@ -8,14 +8,17 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_margin="15dp">
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:textAlignment="center"
-    android:textSize="19sp"
-    android:layout_marginTop="12dp"
-    android:text="@string/about_company"/>
+
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text='ПТ Ломбард "Золота скриня"'
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textColor="#212121"/>
+        <TextView
+            android:layout_marginTop="12dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/amp"/>
@@ -31,6 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            android:textColor="#ffffff"
             android:background="@color/colorPrimaryDark"
             android:text="@string/registr"/>
 

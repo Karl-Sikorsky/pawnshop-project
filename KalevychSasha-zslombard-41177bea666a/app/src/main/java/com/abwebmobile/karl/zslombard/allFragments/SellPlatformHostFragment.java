@@ -69,15 +69,15 @@ public class SellPlatformHostFragment extends Fragment implements HostView {
 
     @Override
     public void requestFragment(int fragmentCode, String value) {
-        if(fragmentCode == FRAGMENT_SHOP_CATEGORY){
+        if (fragmentCode == FRAGMENT_SHOP_CATEGORY) {
             SellItemsInCategoryFragment sellItemsInCategoryFragment = new SellItemsInCategoryFragment();
             sellItemsInCategoryFragment.setCategoryCode(categoryCode);
             FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
             transaction.replace(R.id.frame_layout, sellItemsInCategoryFragment);
             transaction.commit();
-        };
+        }
+        ;
     }
-
 
 
     int categoryCode = 0;

@@ -14,14 +14,15 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
  * Created by Karl on 16.02.2018.
- *
+ * <p>
  * claas that using for fetch data from calculator server url
  */
 
 public class CalculatorService {
     private Calculable mCalculable;
     private ServerCalculator mService;
-    public CalculatorService(Calculable calculable){
+
+    public CalculatorService(Calculable calculable) {
         this.mCalculable = calculable;
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl() // Адрес сервера
@@ -41,15 +42,15 @@ public class CalculatorService {
                     Log.d("loggedR", "all is ok");
                     Log.d("loggedR", response.body().getState().toString());
                     Log.d("loggedR", response.body().getData().getAddresses());
-                    Log.d("calculator", "sucsess percent = "+ response.body().getData().getResult().getCreditPercent());
-                    mCalculable.onCalculate(response.body().getData().getResult().getCreditSumm(),response.body().getData().getResult().getCreditPercent(),response.body().getData().getResult().getCreditUsePercent(),response.body().getData().getResult().getCreditReturnSumm());
+                    Log.d("calculator", "sucsess percent = " + response.body().getData().getResult().getCreditPercent());
+                    mCalculable.onCalculate(response.body().getData().getResult().getCreditSumm(), response.body().getData().getResult().getCreditPercent(), response.body().getData().getResult().getCreditUsePercent(), response.body().getData().getResult().getCreditReturnSumm());
 
                 } else {
                     // сервер вернул ошибку
                     Log.d("loggedR", "have error");
                     Log.d("loggedR", response.message());
                     Log.d("loggedR", response.errorBody().toString());
-                    Log.d("calculator", "ERROR percent = "+ response.body().getData().getResult().getCreditPercent());
+                    Log.d("calculator", "ERROR percent = " + response.body().getData().getResult().getCreditPercent());
                     mCalculable.onCalculate("error", "error", "error", "error");
 
                 }

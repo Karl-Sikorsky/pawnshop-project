@@ -16,12 +16,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        android:layout_marginTop="16dp"
+        android:entries="@array/cityList"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:entries="@array/cityList"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
@@ -35,22 +36,23 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:entries="@array/departmantsList"/>
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/departmantsList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCity" />
 
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="3dp"
-        android:layout_marginTop="16dp"
         android:background="#FEE36B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerDepartment">
+        app:layout_constraintTop_toTopOf="parent">
 
     </View>
 
@@ -68,11 +70,67 @@
     </View>
 
     <View
+        android:id="@+id/view16"
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:background="#ececec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerDepartment">
+
+    </View>
+
+    <View
+        android:id="@+id/view17"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_marginTop="16dp"
+        android:background="#ececec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextWeight">
+
+    </View>
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#ececec"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerCity"
+        app:layout_constraintStart_toStartOf="@+id/spinnerCity"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCity">
+
+    </View>
+
+    <View
+        android:id="@+id/view15"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#ececec"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerCity"
+        app:layout_constraintStart_toStartOf="@+id/spinnerCity"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerDepartment">
+
+    </View>
+
+    <View
         android:id="@+id/view3"
         android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:layout_marginTop="8dp"
-        android:background="#FEE36B"
+        android:layout_height="14dp"
+        android:layout_marginTop="16dp"
+        android:background="#ececec"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,17 +139,18 @@
     </View>
 
     <View
-        android:id="@+id/view4"
+        android:id="@+id/view18"
         android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:layout_marginTop="8dp"
-        android:background="#FEE36B"
+        android:layout_height="14dp"
+        android:layout_marginTop="16dp"
+        android:background="#ececec"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/circularTextView28">
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
 
     </View>
+
 
     <TextView
         android:id="@+id/textView"
@@ -99,80 +158,43 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/material"
+        android:layout_marginTop="16dp"
+        android:text="Матеріал"
+        android:textColor="@color/colorPrimaryDark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view" />
-
-    <RadioGroup
-        android:id="@+id/radioGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:layout_constraintHorizontal_bias="0.15"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
-
-        <RadioButton
-            android:id="@+id/radioButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-
-            android:layout_weight="1"
-            android:text="@string/silver"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioButton" />
-
-        <RadioButton
-            android:id="@+id/radioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_weight="1"
-            android:text="@string/gold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
-    </RadioGroup>
+        app:layout_constraintTop_toBottomOf="@+id/view16" />
 
     <Spinner
         android:id="@+id/spinnerContent"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
 
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
         android:entries="@array/silverContentList"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
     <EditText
         android:id="@+id/editTextWeight"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:ems="10"
+        android:hint="Вага(г)"
         android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/spinnerContent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerContent" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/weight"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextWeight"
-        app:layout_constraintEnd_toStartOf="@+id/editTextWeight"
-        android:layout_marginRight="8dp" />
+        app:layout_constraintTop_toTopOf="@+id/spinnerContent" />
 
     <TextView
         android:id="@+id/textView3"
@@ -180,11 +202,12 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/client_status"
+        android:layout_marginTop="16dp"
+        android:text="Статус клієнта"
+        android:textColor="@color/colorPrimaryDark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view2" />
+        app:layout_constraintTop_toBottomOf="@+id/view17" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -192,7 +215,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3">
@@ -203,434 +226,6 @@
             android:layout_height="wrap_content"></include>
     </LinearLayout>
 
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text=" 1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        android:layout_marginLeft="8dp" />
-
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text=" 2"
-        app:layout_constraintStart_toEndOf="@+id/circularTextView1"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        android:layout_marginLeft="12dp" />
-
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text=" 4"
-        app:layout_constraintStart_toEndOf="@+id/circularTextView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        android:layout_marginLeft="12dp" />
-
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text=" 3"
-        app:layout_constraintStart_toEndOf="@+id/circularTextView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text=" 5"
-        app:layout_constraintStart_toEndOf="@+id/circularTextView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text=" 6"
-        app:layout_constraintStart_toEndOf="@+id/circularTextView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text=" 7"
-        app:layout_constraintStart_toEndOf="@+id/circularTextView6"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text=" 8"
-        app:layout_constraintStart_toEndOf="@+id/circularTextView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text=" 9"
-        app:layout_constraintStart_toEndOf="@+id/circularTextView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        android:layout_marginLeft="12dp" />
-
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="10"
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/circularTextView1"
-        android:layout_marginLeft="8dp" />
-
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="11"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView10"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView10"
-        android:layout_marginLeft="12dp" />
-
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="12"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView11"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView11"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="13"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView12"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView11"
-        android:layout_marginLeft="12dp" /><com.abwebmobile.karl.zslombard.CircularTextView
-    android:id="@+id/circularTextView14"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="12dp"
-    android:gravity="center"
-    android:padding="3dp"
-    android:text="14"
-
-    app:layout_constraintStart_toEndOf="@+id/circularTextView13"
-    app:layout_constraintTop_toTopOf="@+id/circularTextView11"
-    android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="15"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView14"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView11"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="16"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView15"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView11"
-        android:layout_marginLeft="12dp" />
-
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:gravity="center"
-        android:padding="3dp"
-
-        android:text="19"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/circularTextView10"
-        android:layout_marginLeft="8dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="17"
-
-               app:layout_constraintStart_toEndOf="@+id/circularTextView16"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView11"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="18"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView17"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView11"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="20"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView19"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView19"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="21"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView20"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView19"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="22"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView21"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView19"
-        android:layout_marginLeft="12dp" /><com.abwebmobile.karl.zslombard.CircularTextView
-    android:id="@+id/circularTextView23"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="12dp"
-    android:gravity="center"
-    android:padding="3dp"
-    android:text="23"
-
-    app:layout_constraintStart_toEndOf="@+id/circularTextView22"
-    app:layout_constraintTop_toTopOf="@+id/circularTextView19"
-    android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="24"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView23"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView19"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="25"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView24"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView19"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="26"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView25"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView19"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="27"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView26"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView19"
-        android:layout_marginLeft="12dp" />
-
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView28"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:gravity="center"
-
-        android:padding="3dp"
-        android:text="28"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/circularTextView19"
-        android:layout_marginLeft="8dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="29"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView28"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView28"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="30"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView29"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView28"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView31"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="31"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView30"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView28"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView32"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="32"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView31"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView28"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="33"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView32"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView28"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView34"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="34"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView33"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView28"
-        android:layout_marginLeft="12dp" />
-    <com.abwebmobile.karl.zslombard.CircularTextView
-        android:id="@+id/circularTextView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:gravity="center"
-        android:padding="3dp"
-        android:text="35"
-
-        app:layout_constraintStart_toEndOf="@+id/circularTextView34"
-        app:layout_constraintTop_toTopOf="@+id/circularTextView28"
-        android:layout_marginLeft="12dp" />
-
-
 
     <TextView
         android:id="@+id/textView4"
@@ -638,8 +233,9 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/credit_term"
+        android:layout_marginTop="16dp"
+        android:text="Термін кредитування"
+        android:textColor="@color/colorPrimaryDark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view3" />
@@ -649,97 +245,500 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorPrimaryDark"
         android:text="@string/credit_sum"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view4" />
+        app:layout_constraintTop_toBottomOf="@+id/view18" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/percent_credit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/view4" />
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textViewSum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
         android:text="0.0"
-        app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textViewPercentAbs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
         android:text="0.0%"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="19dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/returning"
-        app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSum" />
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
         android:layout_marginTop="8dp"
         android:text="@string/for_usage"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.63"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPercentAbs" />
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
         android:id="@+id/textViewToReturn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
         android:text="0.0"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toTopOf="@+id/textView9" />
 
     <TextView
         android:id="@+id/textViewPercentUsage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="0.0%"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/radioButton2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="СРІБЛО"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/radioButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#ffffeb00"
+        android:text="ЗОЛОТО"
+
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radioButton2"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:text="0.0%"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text=" 1"
+                android:textSize="15dp"
+
+                />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text=" 2"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text=" 4"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text=" 3"
+                android:textSize="15dp"
+
+                />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text=" 5"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text=" 6"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text=" 7"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text=" 8"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text=" 9"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="10"
+                android:textSize="15dp"
+
+                />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="11"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="12"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="13"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="14"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="15"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="16"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="19"
+
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="17"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="18"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="20"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="21"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="22"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="23"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="24"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="25"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="26"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="27"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+
+
+                android:text="28" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="29"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="30"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="31"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="32"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+
+                android:text="33"
+
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="34"
+                android:textSize="15dp" />
+
+            <com.abwebmobile.l.zslombard.CircularTextView
+                android:id="@+id/circularTextView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="35"
+
+                />
+
+        </LinearLayout>
+    </HorizontalScrollView>
 
 
 </android.support.constraint.ConstraintLayout>

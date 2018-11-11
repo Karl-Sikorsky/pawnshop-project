@@ -29,6 +29,7 @@
         android:layout_below="@+id/textViewReminder"
         android:layout_marginTop="34dp"
         android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
         android:text="буду завтра" />
 
     <Button
@@ -42,6 +43,8 @@
         android:background="@color/colorPrimaryDark"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
+        android:textColor="#fff"
+
         android:text="буду через 3 дні" />
 
     <Button
@@ -57,6 +60,8 @@
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
         android:layout_marginBottom="8dp"
+        android:textColor="#fff"
+
         android:text="прошу зачекати" />
 
     <Button
@@ -71,6 +76,8 @@
         android:layout_alignStart="@+id/buttonNotification3"
         android:layout_marginBottom="8dp"
         android:layout_marginRight="15dp"
+        android:textColor="#fff"
+
         android:background="@color/colorPrimaryDark"
         android:text="не прийду" />
 

@@ -25,7 +25,7 @@
     <string name="apple_acer_sony">Виробник (Apple, Acer, Sony)</string>
     <string name="remarks">Примітки</string>
 
-    <string name="_" />
+    <string name="space"  >" "</string>
 
 
     <string name="new_client">Новий</string>
@@ -196,6 +196,8 @@
     <string name="chat">Чат</string>
     <string name="reply_label">швидка відповідь</string>
     <string name="goods">Товари</string>
+
+    <string name="platinum">Платина</string>
 
     <string-array name="cityList">
         <item>Київ</item>

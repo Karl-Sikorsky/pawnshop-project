@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.abwebmobile.karl.zslombard.MainActivity">
+    tools:context="com.abwebmobile.l.zslombard.MainActivity">
 
     <FrameLayout
         android:id="@+id/frame_layout"

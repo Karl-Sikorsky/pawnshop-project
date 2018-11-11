@@ -213,7 +213,7 @@
                 android:layout_height="wrap_content"></include>
         </LinearLayout>
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -225,7 +225,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -237,7 +237,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView1"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -249,7 +249,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView3"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -261,7 +261,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView2"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -273,7 +273,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView4"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -285,7 +285,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView5"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -297,7 +297,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView6"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -311,7 +311,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView7"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -325,7 +325,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView8"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -337,7 +337,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/circularTextView1" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -349,7 +349,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView10"
             app:layout_constraintTop_toTopOf="@+id/circularTextView10" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -361,7 +361,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView11"
             app:layout_constraintTop_toTopOf="@+id/circularTextView11" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -373,7 +373,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView12"
             app:layout_constraintTop_toTopOf="@+id/circularTextView11" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -385,7 +385,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView13"
             app:layout_constraintTop_toTopOf="@+id/circularTextView11" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -397,7 +397,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView14"
             app:layout_constraintTop_toTopOf="@+id/circularTextView11" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -409,7 +409,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView15"
             app:layout_constraintTop_toTopOf="@+id/circularTextView11" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -421,7 +421,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/circularTextView10" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -433,7 +433,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView16"
             app:layout_constraintTop_toTopOf="@+id/circularTextView11" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -447,7 +447,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView17"
             app:layout_constraintTop_toTopOf="@+id/circularTextView11" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -459,7 +459,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView19"
             app:layout_constraintTop_toTopOf="@+id/circularTextView19" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView21"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -471,7 +471,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView20"
             app:layout_constraintTop_toTopOf="@+id/circularTextView19" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -483,7 +483,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView21"
             app:layout_constraintTop_toTopOf="@+id/circularTextView19" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -495,7 +495,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView22"
             app:layout_constraintTop_toTopOf="@+id/circularTextView19" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -507,7 +507,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView23"
             app:layout_constraintTop_toTopOf="@+id/circularTextView19" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -519,7 +519,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView24"
             app:layout_constraintTop_toTopOf="@+id/circularTextView19" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -531,7 +531,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView25"
             app:layout_constraintTop_toTopOf="@+id/circularTextView19" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -545,7 +545,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView26"
             app:layout_constraintTop_toTopOf="@+id/circularTextView19" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView28"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -557,7 +557,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/circularTextView19" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -569,7 +569,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView28"
             app:layout_constraintTop_toTopOf="@+id/circularTextView28" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -581,7 +581,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView29"
             app:layout_constraintTop_toTopOf="@+id/circularTextView28" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView31"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -593,7 +593,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView30"
             app:layout_constraintTop_toTopOf="@+id/circularTextView28" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView32"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -605,7 +605,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView31"
             app:layout_constraintTop_toTopOf="@+id/circularTextView28" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView33"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -617,7 +617,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView32"
             app:layout_constraintTop_toTopOf="@+id/circularTextView28" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView34"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -629,7 +629,7 @@
             app:layout_constraintStart_toEndOf="@+id/circularTextView33"
             app:layout_constraintTop_toTopOf="@+id/circularTextView28" />
 
-        <com.abwebmobile.karl.zslombard.CircularTextView
+        <com.abwebmobile.l.zslombard.CircularTextView
             android:id="@+id/circularTextView35"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

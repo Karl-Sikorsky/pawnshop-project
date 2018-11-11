@@ -5,5 +5,8 @@
         <attr name="drawableRightCompat" format="reference"/>
         <attr name="drawableTopCompat" format="reference"/>
         <attr name="drawableBottomCompat" format="reference"/>
+
     </declare-styleable>
+    <attr format="string" name="fontPath"/>
+    <item name="calligraphy_tag_id" type="id"/>
 </resources>

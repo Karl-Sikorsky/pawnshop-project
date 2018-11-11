@@ -27,7 +27,7 @@
     <string name="apple_acer_sony">Виробник (Apple, Acer, Sony)</string>
     <string name="remarks">Примітки</string>
 
-    <string name="_" />
+    <string name="space" >" "</string>
 
 
 
@@ -229,4 +229,6 @@
     <string name="hint_error_card2">номера не співпадають</string>
     <string name="chat">Чат</string>
     <string name="goods">Товари</string>
+    <string name="reply_label">швидка відповідь</string>
+    <string name="platinum">Платина</string>
 </resources>

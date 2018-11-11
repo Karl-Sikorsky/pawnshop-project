@@ -6,7 +6,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#ffffff">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -17,13 +18,16 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:text="@string/appliance_credit"
+                android:text="Кредит під заставу техніки"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -41,11 +45,6 @@
                 android:textColor="#fff"
                 android:textSize="18sp" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:background="@color/colorPrimary"></View>
-
             <android.support.constraint.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -54,119 +53,112 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imgStavka"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="4dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="8dp"
-                    android:src="@drawable/stavka"
-                    app:layout_constraintEnd_toStartOf="@+id/imgTermin"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <ImageView
                     android:id="@+id/imgTermin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/termin"
-                    app:layout_constraintEnd_toStartOf="@+id/imgOformlennya"
-                    app:layout_constraintStart_toEndOf="@+id/imgStavka"
+                    android:src="@drawable/cond22"
+                    app:layout_constraintEnd_toEndOf="@+id/imgStavka"
+                    app:layout_constraintStart_toStartOf="@+id/imgStavka"
+                    app:layout_constraintTop_toBottomOf="@+id/imgStavka" />
+
+                <ImageView
+                    android:id="@+id/imgStavka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/cond23"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
                     android:id="@+id/imgRozmir"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_marginStart="4dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/rozmir"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imgOformlennya"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:src="@drawable/cond21"
+                    app:layout_constraintEnd_toEndOf="@+id/imgOformlennya"
+                    app:layout_constraintStart_toStartOf="@+id/imgOformlennya"
+                    app:layout_constraintTop_toBottomOf="@+id/imgOformlennya" />
 
                 <ImageView
                     android:id="@+id/imgOformlennya"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginStart="4dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/oformlennya"
-                    app:layout_constraintEnd_toStartOf="@+id/imgRozmir"
-                    app:layout_constraintStart_toEndOf="@+id/imgTermin"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <TextView
-                    android:id="@+id/textView16"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/days_1_35"
+                    android:src="@drawable/cond24"
                     app:layout_constraintEnd_toEndOf="@+id/imgTermin"
                     app:layout_constraintStart_toStartOf="@+id/imgTermin"
                     app:layout_constraintTop_toBottomOf="@+id/imgTermin" />
 
                 <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/days_1_35"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgTermin"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/textView15"
+                    app:layout_constraintTop_toTopOf="@+id/imgTermin" />
+
+                <TextView
                     android:id="@+id/textView15"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:text="@string/_0_75"
-                    app:layout_constraintEnd_toEndOf="@+id/imgStavka"
-                    app:layout_constraintStart_toStartOf="@+id/imgStavka"
-                    app:layout_constraintTop_toBottomOf="@+id/imgStavka" />
+                    app:layout_constraintBottom_toBottomOf="@+id/imgStavka"
+                    app:layout_constraintStart_toEndOf="@+id/imgStavka"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="2dp"
-                    android:layout_marginStart="2dp"
                     android:layout_marginTop="8dp"
                     android:text="@string/few_minutes"
-                    app:layout_constraintEnd_toEndOf="@+id/imgOformlennya"
-                    app:layout_constraintStart_toStartOf="@+id/imgOformlennya"
-                    app:layout_constraintTop_toBottomOf="@+id/imgOformlennya" />
+                    app:layout_constraintEnd_toEndOf="@+id/textView16"
+                    app:layout_constraintStart_toStartOf="@+id/textView16"
+                    app:layout_constraintTop_toTopOf="@+id/imgOformlennya" />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
                     android:text="@string/credit_size"
+                    app:layout_constraintBottom_toBottomOf="@+id/imgRozmir"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="@+id/imgRozmir"
-                    app:layout_constraintTop_toBottomOf="@+id/imgRozmir" />
+                    app:layout_constraintStart_toStartOf="@+id/textView14"
+                    app:layout_constraintTop_toBottomOf="@+id/imgOformlennya" />
             </android.support.constraint.ConstraintLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:layout_marginTop="18dp"
-                android:background="@color/colorPrimary"></View>
+
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:text="@string/appliance_mark"
+                android:text="Оцінка техніки"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -187,11 +179,6 @@
                 android:textColor="#fff"
                 android:textSize="18sp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/we_receive_everything_n_n_n_n_n"
-                android:textSize="20sp" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

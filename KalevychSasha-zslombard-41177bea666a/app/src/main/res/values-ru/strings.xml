@@ -29,7 +29,7 @@
 
     <string name="tap_twice_to_exit">Нажмите дважды для выхода</string>
 
-    <string name="_" />
+    <string name="space" >" "</string>
 
 
 
@@ -225,4 +225,14 @@
     <string name="show_notification">Отображать уведомления</string>
     <string name="set_all">Включить все</string>
     <string name="set_nothing">Отключить все</string>
+    <string name="add_card">Прикрепить карту</string>
+    <string name="card_number">Номер вашей карты</string>
+    <string name="card_repeat">Еще раз для проверки</string>
+    <string name="attach_card">ЗАКРЕПИТЬ КАРТУ</string>
+    <string name="hint_error_card1">Номер карты содержит 16 символов</string>
+    <string name="hint_error_card2">номера не совпадают</string>
+    <string name="chat">Чат</string>
+    <string name="goods">Товары</string>
+    <string name="reply_label">Быстрый ответ</string>
+    <string name="platinum">Платина</string>
 </resources>
